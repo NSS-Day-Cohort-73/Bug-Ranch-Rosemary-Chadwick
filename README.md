@@ -81,7 +81,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > drovers is an array[]       The value of drovers is an array of an exact amount of drovers from an array in the database tab. 
    > drover is an object      The value of drover is value gained by a single iteration over the drovers array. Here is is the first name and last name of one of the drovers in the drovers array.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > https://www.loom.com/share/abbc3ff7562345c3b53bb6f6f70440d3
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -89,11 +89,13 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > This is a for loop. It iterates through the loop as many times as many times as createForests() randomly picked for it to do.
+   It then pushes the string "forest" into the journey array
+   > for calls for a loop to be made, that loop is made in between the () right after. This is just a for loop iterating through the length of an array of objects. it goes from the first one [0] ; through all the forests in areas ; then adds one more until there are no more to go through then it stops an moves on to the next one. pushing an object into the journey array with every iteration.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > database is an array        database is an array that contains 2 objects. the first object has 4 objects that each have 2 key pairs.  The second object has many objects that have 4 key pairs.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > (herdSize) is a parameter or place holder so that we can fill it with other values later and reuse the function hireDrovers() later if we want to. In this project the parameter herdSize was replaced with the const cattleToDrive = 50. that is located on the main.js page. 
 
 ## When You Are Done
 
