@@ -76,9 +76,10 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > drovers is an array[]:    The value of drovers here is equal to the output of the hireDrovers function with the input from the cattleToDrive constant. that value of drovers is an array created by the hireDrovers function. hireDrovers() pulls drover information from the database tab and randomly arranges it in an array, then that array is stored in the constant drovers.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > drovers is an array[]       The value of drovers is an array of an exact amount of drovers from an array in the database tab. 
+   > drover is an object      The value of drover is value gained by a single iteration over the drovers array. Here is is the first name and last name of one of the drovers in the drovers array.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
 4. Also in the **journey** module, there is the following code:

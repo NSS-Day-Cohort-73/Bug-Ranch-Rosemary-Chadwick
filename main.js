@@ -34,5 +34,5 @@ for (const drover of drovers) {
 
 console.log("\n\nYour journey will take you through the wildness of the American Midwest and across the following terrain")
 for (const area of journey) {
-    console.log(`\t* ${area}`)
+    console.log(`\n* ${area}`)
 }
